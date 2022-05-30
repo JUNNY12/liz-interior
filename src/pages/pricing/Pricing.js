@@ -5,6 +5,7 @@ import PricingSection3 from '../pricing/PricingSection3'
 import PricingSection4 from './PricingSection4'
 import Card from '../../components/card/Card'
 import CardData from '../pricing/CardData'
+import ScrollTop from '../../components/scrollTop/ScrollTop'
 
 const Pricing = () => {
 
@@ -26,6 +27,7 @@ const Pricing = () => {
             {CardItems}
         </div>
         <PricingSection4 />
+        <ScrollTop />
     </div>
   )
 }

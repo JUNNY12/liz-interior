@@ -3,6 +3,7 @@ import PortfolioSection1 from './PortfolioSection1'
 import PortfolioImages from '../portfolio/PortfolioImages'
 import ImageData from '../portfolio/ImageData'
 import PortfolioSection2 from './PortfolioSection2'
+import ScrollTop from '../../components/scrollTop/ScrollTop'
 
 const Portfolio = () => {
 
@@ -23,6 +24,8 @@ const Portfolio = () => {
         <div>
             <PortfolioSection2 />
         </div>
+
+        <ScrollTop />
     </div>
   )
 }

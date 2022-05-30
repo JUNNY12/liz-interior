@@ -16,7 +16,7 @@ const Navbar = () => {
         py-4 px-8 fixed top-0 w-full text-cyan-900 bg-slate-50 
         z-10 shadow-slate-500 shadow-md"
         >
-            <div className="text-xl md:text-2xl lg:text-5xl"><a href="home">Liz Interior</a></div>
+            <div className="text-xl md:text-2xl lg:text-5xl"><a href="/">Liz Interior</a></div>
 
             <div className={isOpen? "block w-full md:flex md:items-center md:w-auto" 
             :"hidden w-full md:flex md:items-center md:w-auto"}>
