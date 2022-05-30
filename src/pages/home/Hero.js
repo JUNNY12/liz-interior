@@ -10,13 +10,14 @@ const Hero = () => {
         <div className='h-96 md:h-130 object-cover w-auto
          hover:cursor-pointer hover:-translate-y-1 
          hover:scale-90 duration-300
-        '>
+        ' data-aos="zoom-in">
             <img src={home1} className="h-full w-full" />
         </div>
 
         <div className='flex justify-center items-center text-center flex-col
          hover:cursor-pointer hover:-translate-y-1 
          hover:scale-90 duration-300'
+         data-aos="zoom-in"
          >
             <h1 className='text-xl md:text-2xl lg:text-4xl leading-tight mb-6 text-gray-900'>
                  WHEN DESIGN INTRODUCES BEAUTY INTO YOUR HOME
@@ -33,6 +34,7 @@ const Hero = () => {
         <div className='h-96 md:h-130 object-cover w-auto
          hover:cursor-pointer hover:-translate-y-1 
          hover:scale-90 duration-300'
+         data-aos="zoom-in"
          >
             <img src={home2} className="h-full w-full" />
         </div>
