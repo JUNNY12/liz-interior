@@ -3,7 +3,7 @@ import React from 'react'
 const ContactHeader = () => {
   return (
     <div>
-         <div className='text-center px-10 md:px-28 pt-20' data-aos="zoom-out">
+         <div className='text-center px-10 md:px-28 pt-20' data-aos="zoom-in">
             <h2 className='text-xl md:text-2xl lg:text-4xl mb-4 text-cyan-900 font-bold'>
                 Get In Touch
             </h2>

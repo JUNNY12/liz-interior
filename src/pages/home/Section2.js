@@ -10,7 +10,7 @@ const Section2 = () => {
         <div className='h-60 md:h-96 lg:h-130 object-cover w-auto
          hover:cursor-pointer hover:-translate-y-1 
          hover:scale-90 duration-300'
-         data-aos="flip-down"
+         data-aos="zoom-down"
         >
             <img src={home4} className="h-full w-full"/>
         </div>
@@ -19,7 +19,7 @@ const Section2 = () => {
             <div className='h-60 md:h-44 lg:h-60 w-auto
              hover:cursor-pointer hover:-translate-y-1 
              hover:scale-90 duration-300'
-             data-aos="flip-right"
+             data-aos="zoom-right"
             >
                 <img src={home5} className="h-full w-full"/>
             </div>
@@ -27,7 +27,7 @@ const Section2 = () => {
             <div className='h-60 md:h-44 lg:h-60 w-auto
              hover:cursor-pointer hover:-translate-y-1 
              hover:scale-90 duration-300'
-             data-aos="flip-left"
+             data-aos="zoom-in"
             >
                 <img src={home7} className="h-full w-full"/>
             </div>
@@ -36,7 +36,7 @@ const Section2 = () => {
         <div className='h-60 md:h-96 lg:h-130 object-cover w-auto
         hover:cursor-pointer hover:-translate-y-1 
         hover:scale-90 duration-300'
-        data-aos="flip-up"
+        data-aos="zoom-out"
         >
             <img src={home6} className="h-full w-full" />
         </div>

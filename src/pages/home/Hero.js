@@ -5,7 +5,7 @@ import Button from '../../components/buttons/Button'
 
 const Hero = () => {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-3 md:order-3 pt-20 gap-4 px-6 md:px-10 lg:px-12'>
+    <div className='grid grid-cols-1 md:grid-cols-3 pt-20 gap-4 px-6 md:px-10 lg:px-12'>
       
         <div className='h-96 md:h-130 object-cover w-auto
          hover:cursor-pointer hover:-translate-y-1 

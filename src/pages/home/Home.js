@@ -7,6 +7,7 @@ import Section4 from './Section4'
 import Section5 from './Section5'
 
 
+
 const Home = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const Home = () => {
         <Section3 />
         <Section4 />
         <Section5 />
+    
     </div>
   )
 }

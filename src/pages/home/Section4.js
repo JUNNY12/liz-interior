@@ -3,6 +3,7 @@ import Button from '../../components/buttons/Button'
 
 
 
+
 const Section4 = () => {
   return (
     <div className='text-center p-10 md:p-28 bg-slate-50'>
@@ -24,6 +25,8 @@ const Section4 = () => {
               <Button buttonText="Read More"/>
            </a>
         </div>
+
+      
 
         
     </div>

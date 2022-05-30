@@ -9,14 +9,14 @@ import team3 from "../../assets/team3.webp"
 
 const AboutSection3 = () => {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-10 md:p-16 lg:p-28 gap-8'>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-10 md:p-16 lg:p-28 gap-8 mb-14'>
 
         <div className='bg-slate-100 p-4
         shadow-lg shadow-slate-500 rounded-sm hover:cursor-pointer
         hover:-translate-y-1 hover:scale-90 duration-300'
-        data-aos="zoom-in-right"
+        data-aos="zoom-in"
         >
-            <div className='mb-6  h-48 md:h-96 w-auto object-cover'>
+            <div className='mb-6  h-96 w-auto object-cover'>
                 <img src={team2} className="w-full h-full" />
             </div>
 
@@ -33,9 +33,9 @@ const AboutSection3 = () => {
         <div className='bg-slate-100 p-4
         shadow-lg shadow-slate-500 rounded-sm hover:cursor-pointer
         hover:-translate-y-1 hover:scale-90 duration-300'
-        data-aos="zoom-out-left"
+        data-aos="zoom-in"
         >
-            <div className='mb-6 h-48 md:h-96 w-auto object-cover'>
+            <div className='mb-6 h-96 w-auto object-cover'>
                 <img src={team1} className="w-full h-full" />
             </div>
 
@@ -54,9 +54,9 @@ const AboutSection3 = () => {
         <div className='bg-slate-100 p-4
         shadow-lg shadow-slate-500 rounded-sm hover:cursor-pointer
         hover:-translate-y-1 hover:scale-90 duration-300'
-        data-aos="zoom-in-up"
+        data-aos="zoom-in"
         >
-            <div className='mb-6  h-48 md:h-96 w-auto object-cover'>
+            <div className='mb-6 h-96 w-auto object-cover' >
                 <img src={team3} className="w-full h-full" />
             </div>
 
